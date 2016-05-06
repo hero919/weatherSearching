@@ -1,0 +1,15 @@
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Search History</th>
+        </tr>
+    </thead>
+    <tbody>
+    <!--Used tracked by since the value is duplicated-->
+    <tr ng-repeat="his in history track by $index">
+        <td>{{his}}</td>
+    </tr>
+
+    </tbody>
+
+</table>
