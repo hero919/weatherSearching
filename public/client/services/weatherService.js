@@ -51,9 +51,8 @@
 
         function getDate(num){
             var myDate = new Date(1000*num);
-            var date = myDate.toString().substring(0,4);
 
-            return date;
+            return myDate.toString().substring(0,4);
 
 
         }
