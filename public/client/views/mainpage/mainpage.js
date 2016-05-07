@@ -7,7 +7,7 @@
         .controller("mainpageController", MainpageController);
 
 
-    function MainpageController(weatherService, $scope, $route){
+    function MainpageController(weatherService, $scope){
         //weatherService.getCurrentLocation().then(function(response){
         //    console.log(response);
         //})

@@ -56,9 +56,6 @@
             return date;
 
 
-
-
-
         }
 
         function getSearchHistory(){
@@ -214,6 +211,7 @@
             var deferred = $q.defer();
             if (navigator.geolocation) {
                 navigator.geolocation.getCurrentPosition(function(position) {
+                    console.log(position);
                     var pos = {
                         lat: position.coords.latitude,
                         lng: position.coords.longitude
@@ -233,7 +231,6 @@
         function getCurrentLocation(){
             var deferred = $q.defer();
             getCurrentLatLng().then(function(loc){
-                console.log("Hello");
                 if(loc){
                     console.log(loc);
                     var lat = loc.lat;
@@ -267,7 +264,6 @@
         function getCurrentWeatherInfo(){
             var deferred = $q.defer();
             getCurrentLatLng().then(function(loc){
-                console.log(loc);
                 if(loc){
                     var lat = loc.lat;
                     var lng = loc.lng;
@@ -281,7 +277,6 @@
                         "," +
                         lng +
                         "&&callback=JSON_CALLBACK";
-                    console.log(url);
                     $http.jsonp(url)
                         .success(function(response){
                             console.log(response);

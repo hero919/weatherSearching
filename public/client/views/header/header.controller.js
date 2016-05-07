@@ -7,16 +7,10 @@
         .controller("headerController", headerController);
 
     function headerController($scope, weatherService, $location) {
-        console.log("asdasdasd");
-
         var location = $scope.location;
-        console.log("*****");
-        console.log(location);
-
         $scope.checkIfEnterKeyWasPressed = function ($event) {
             var keyCode = $event.which || $event.keyCode;
             if (keyCode === 13) {
-                console.log($scope.location);
                 var location = $scope.location;
                 weatherService.getSearchLocationLatLng(location).then(function(response){
                     console.log(response);
