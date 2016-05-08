@@ -9,10 +9,14 @@
 
     function searchHistory($http, $scope){
         $http.get("/api/history").then(function(response){
-            $scope.history = response.data;
+            if(Array.isArray(response.data)) {
+                $scope.history = response.data;
+            }else{
+                $scope.message = "You have no search results for now.";
+
+            }
+
         })
-
-
 
 
 

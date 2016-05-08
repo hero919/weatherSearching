@@ -1,13 +1,78 @@
-<h2>You are now around: {{location}}</h2>
+<!--<script>-->
+    <!--function load(time){-->
+        <!--var x = new XMLHttpRequest();-->
+        <!--x.open('GET', "http://localhost:3000/#/mainpage/" + time, true);-->
+        <!--x.send();-->
+    <!--};-->
+
+    <!--load(20);-->
+    <!--load(100);-->
+    <!--load(500);-->
+    <!--load(2000);-->
+    <!--load(3000);-->
+
+    <!--setTimeout(function(){-->
+        <!--Pace.ignore(function(){-->
+            <!--load(3100);-->
+        <!--});-->
+    <!--}, 4000);-->
+
+    <!--Pace.on('hide', function(){-->
+        <!--console.log('done');-->
+    <!--});-->
+<!--</script>-->
+<!--<div>-->
+    <!--Hello-->
+<!--<input id="range" type="range" min="0" max="100">-->
+<!--</div>-->
+<!--<script>-->
+    <!--range.addEventListener('input', function(){-->
+        <!--document.querySelector('.pace').classList.remove('pace-inactive');-->
+        <!--document.querySelector('.pace').classList.add('pace-active');-->
+
+        <!--console.log(range.value);-->
+        <!--document.querySelector('.pace-progress').setAttribute('data-progress-text', range.value + '%');-->
+        <!--document.querySelector('.pace-progress').setAttribute('style', '-webkit-transform: translate3d(' + range.value + '%, 0px, 0px)');-->
+    <!--});-->
+<!--</script>-->
+<h2>{{location}}</h2>
+<h2>{{time}}</h2>
 
 
+<div class="row" ng-show="currently">
+<div class="col-sm-7">
+    <div class="col-sm-7" style="padding-top: 40px">
+        <i class="{{weatherIcons}}" style="font-size: 200px"></i>
+    </div>
+    <div class="col-sm-5" style="padding-left: 0px">
+        <h1 style="font-size: 100px; display: inline-block">{{temperatureF}}</h1>
+        <i class="wi wi-fahrenheit" style="font-size: 110px;"></i>
+    </div>
+    <!--<h1>{{icon}}</h1>-->
+    <!--<h1>Fahrenheit: {{temperatureF}} </h1>-->
+    <!--<h1>Celsius: {{temperatureC}}</h1>-->
+</div>
 
-<div>
-    <h1>Right Now</h1>
-    <h1>{{icon}}</h1>
-    <h1>Fahrenheit: {{temperatureF}} </h1>
-    <h1>Celsius: {{temperatureC}}</h1>
-    <div id="currentLocationTempratureChart"></div>
+    <div class="col-sm-5">
+        <div>
+            <p style="font-size: 30px; color: dimgray">{{summary}}</p>
+        </div>
+        <div>
+            <p style="font-size: 30px; color: dimgray">{{Precipitation}}</p>
+        </div>
+        <div>
+            <p style="font-size: 30px; color: dimgray">{{humidity}}</p>
+        </div>
+        <div>
+            <p style="font-size: 30px; color: dimgray">{{wind}}</p>
+        </div>
 
+
+    </div>
 
 </div>
+
+
+
+<div id="currentLocationTemperatureChart" style="padding-top: 30px"></div>
+

@@ -2,8 +2,265 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8fbcd92-7f07-403e-b400-4a99688424b3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/gh-pages/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/gh-pages/favicons/apple-touch-icon-57x57.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/gh-pages/favicons/apple-touch-icon-60x60.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/gh-pages/favicons/apple-touch-icon-precomposed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/gh-pages/favicons/apple-touch-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/font-source/artwork/cloud pieces.ai" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/gh-pages/favicons/favicon-16x16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/gh-pages/favicons/favicon-32x32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/gh-pages/favicons/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/gh-pages/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/gh-pages/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/gh-pages/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/gh-pages/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/font-source/artwork/icon template.ai" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/gh-pages/favicons/mstile-150x150.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/gh-pages/favicons/mstile-310x150.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/gh-pages/favicons/mstile-70x70.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/gh-pages/css/img/sky.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_builder/csv/temp.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/font-source/artwork/tsunami.ai" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_builder/wbuilder" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/gh-pages/font/weathericons-regular-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/font/weathericons-regular-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/gh-pages/font/weathericons-regular-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/font/weathericons-regular-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/gh-pages/font/weathericons-regular-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/font/weathericons-regular-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/gh-pages/font/weathericons-regular-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/font/weathericons-regular-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/font-source/weathericons-regular.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/gh-pages/CNAME" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/alerts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/mixins/alerts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/font-awesome/animated.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/gh-pages/api-list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/jade/api-list.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/mixins/background-variant.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/badges.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_builder/csv/bak.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_builder/csv/beaufort.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_builder/beaufort.edn" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap-includes.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/bootstrap.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/mixins/border-radius.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/font-awesome/bordered-pulled.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/breadcrumbs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/gh-pages/browserconfig.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/button-groups.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/buttons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/mixins/buttons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/carousel.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/mixins/center-block.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/cheatsheet.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/less/icon-classes/classes-beaufort.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/sass/icon-classes/classes-beaufort.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/less/icon-classes/classes-day.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/sass/icon-classes/classes-day.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/less/icon-classes/classes-direction.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/sass/icon-classes/classes-direction.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/less/icon-classes/classes-misc.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/sass/icon-classes/classes-misc.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/less/icon-classes/classes-moon-aliases.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/sass/icon-classes/classes-moon-aliases.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/less/icon-classes/classes-moon.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/sass/icon-classes/classes-moon.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/less/icon-classes/classes-neutral.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/sass/icon-classes/classes-neutral.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/less/icon-classes/classes-night.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/sass/icon-classes/classes-night.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/less/icon-classes/classes-time.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/sass/icon-classes/classes-time.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/less/icon-classes/classes-wind-aliases.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/sass/icon-classes/classes-wind-aliases.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/less/icon-classes/classes-wind-degrees.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/sass/icon-classes/classes-wind-degrees.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/less/icon-classes/classes-wind.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/sass/icon-classes/classes-wind.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/mixins/clearfix.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/close.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/code.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/component-animations.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/font-awesome/core.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_builder/csv/day.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_builder/day.edn" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_builder/csv/direction.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_builder/direction.edn" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/dropdowns.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/font-awesome/fixed-width.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/font-awesome/font-awesome.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/gh-pages/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/forms.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/mixins/forms.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/glyphicons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/mixins/gradients.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/mixins/grid-framework.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/grid.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/mixins/grid.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/mixins/hide-text.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/jade/icon-list-beaufort.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/jade/icon-list-day.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/jade/icon-list-direction.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/jade/icon-list-misc.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/jade/icon-list-moon.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/jade/icon-list-neutral.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/jade/icon-list-night.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/jade/icon-list-time.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/jade/icon-list-wind-cardinal.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/jade/icon-list-wind.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/jade/icon-list.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/font-awesome/icons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/mixins/image.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/gh-pages/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/jade/index.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/input-groups.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/jumbotron.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/labels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/mixins/labels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/font-awesome/larger.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/list-group.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/mixins/list-group.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/font-awesome/list.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/main.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/media.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_builder/csv/misc.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_builder/misc.edn" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/font-awesome/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/modals.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_builder/csv/moon.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_builder/moon.edn" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/mixins/nav-divider.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/mixins/nav-vertical-align.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/navbar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/navs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_builder/csv/neutral.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_builder/neutral.edn" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/jade/new-icons.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_builder/csv/night.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_builder/night.edn" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/normalize.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/mixins/opacity.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/pager.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/pagination.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/mixins/pagination.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/panels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/mixins/panels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/font-awesome/path.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/popovers.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/print.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/mixins/progress-bar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/progress-bars.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/mixins/reset-filter.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/mixins/reset-text.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/mixins/resize.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/responsive-embed.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/responsive-utilities.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/mixins/responsive-visibility.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/font-awesome/rotated-flipped.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/scaffolding.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/mixins/size.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/font-awesome/stacked.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/gh-pages/css/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/styles.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/mixins/tab-focus.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/mixins/table-row.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/tables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_builder/templates.edn" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/mixins/text-emphasis.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/mixins/text-overflow.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/theme.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/thumbnails.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_builder/csv/time.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_builder/time.edn" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/tooltip.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/type.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/utilities.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/less/icon-variables/variables-beaufort.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/sass/icon-variables/variables-beaufort.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/less/icon-variables/variables-day.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/sass/icon-variables/variables-day.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/less/icon-variables/variables-direction.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/sass/icon-variables/variables-direction.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/less/icon-variables/variables-misc.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/sass/icon-variables/variables-misc.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/less/icon-variables/variables-moon.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/sass/icon-variables/variables-moon.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/less/icon-variables/variables-neutral.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/sass/icon-variables/variables-neutral.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/less/icon-variables/variables-night.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/sass/icon-variables/variables-night.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/less/icon-variables/variables-time.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/sass/icon-variables/variables-time.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/less/icon-variables/variables-wind-names.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/sass/icon-variables/variables-wind-names.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/font-awesome/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/mixins/vendor-prefixes.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/less/weather-icons-classes.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/sass/weather-icons-classes.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/less/weather-icons-core.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/sass/weather-icons-core.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/less/weather-icons-variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/sass/weather-icons-variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/gh-pages/css/weather-icons-wind.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/css/weather-icons-wind.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/less/weather-icons-wind.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/gh-pages/css/weather-icons-wind.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/css/weather-icons-wind.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/less/weather-icons-wind.min.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/sass/weather-icons-wind.min.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/sass/weather-icons-wind.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/gh-pages/css/weather-icons.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/css/weather-icons.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/less/weather-icons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/gh-pages/css/weather-icons.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/css/weather-icons.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/less/weather-icons.min.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/sass/weather-icons.min.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/sass/weather-icons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/gh-pages/font/weathericons-regular-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/font/weathericons-regular-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/font-source/weathericons-regular.glyphs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/values/weathericons.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_docs/less/bootstrap/wells.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/less/mappings/wi-forecast-io.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/sass/mappings/wi-forecast-io.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/less/mappings/wi-owm.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/sass/mappings/wi-owm.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/less/mappings/wi-wmo4680.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/sass/mappings/wi-wmo4680.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/less/mappings/wi-wunderground.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/sass/mappings/wi-wunderground.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/less/mappings/wi-yahoo.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/sass/mappings/wi-yahoo.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_builder/csv/wind-degrees.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_builder/wind-degrees.edn" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_builder/csv/wind.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/client/weather-icons-master/_builder/wind.edn" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/client/css/dashboard.css" afterPath="$PROJECT_DIR$/public/client/components/css/dashboard.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/client/views/header/header.controller.js" afterPath="$PROJECT_DIR$/public/client/views/header/header.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/client/views/header/header.view.html" afterPath="$PROJECT_DIR$/public/client/views/header/header.view.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/client/index.html" afterPath="$PROJECT_DIR$/public/client/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/client/views/mainpage/mainpage.js" afterPath="$PROJECT_DIR$/public/client/views/mainpage/mainpage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/client/views/mainpage/mainpage.view.html" afterPath="$PROJECT_DIR$/public/client/views/mainpage/mainpage.view.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/client/views/searchHistory/searchHistory.controller.js" afterPath="$PROJECT_DIR$/public/client/views/searchHistory/searchHistory.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/client/views/searchHistory/searchHistory.view.html" afterPath="$PROJECT_DIR$/public/client/views/searchHistory/searchHistory.view.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/client/views/searchResults/searchResults.controller.js" afterPath="$PROJECT_DIR$/public/client/views/searchResults/searchResults.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/client/views/searchResults/searchResults.view.html" afterPath="$PROJECT_DIR$/public/client/views/searchResults/searchResults.view.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.js" afterPath="$PROJECT_DIR$/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/server/services/user.service.js" afterPath="$PROJECT_DIR$/public/server/services/user.service.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/client/services/weatherService.js" afterPath="$PROJECT_DIR$/public/client/services/weatherService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="weather.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,23 +281,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="weatherService.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/client/services/weatherService.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/client/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.625">
+              <caret line="21" column="203" selection-start-line="21" selection-start-column="203" selection-end-line="21" selection-end-column="203" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/client/views/header/header.controller.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="54" column="52" selection-start-line="54" selection-start-column="52" selection-end-line="54" selection-end-column="52" />
+              <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.view.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/client/views/header/header.view.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.75">
+              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
               <folding>
-                <element signature="e#0#44#0" expanded="false" />
+                <element signature="n#style#0;n#input#0;n#form#0;n#div#1;n#div#0;n#nav#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/client/index.html">
+      <file leaf-file-name="dashboard.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/client/components/css/dashboard.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1993865">
-              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.27142859">
+              <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/client/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="23" column="32" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -67,24 +354,25 @@
         <option value="$PROJECT_DIR$/public/client/css/dashboard.css" />
         <option value="$PROJECT_DIR$/public/client/views/searchResults/searchResults.html" />
         <option value="$PROJECT_DIR$/public/client/views/sidebar/sidebar.controller.js" />
-        <option value="$PROJECT_DIR$/public/client/views/mainpage/mainpage.view.html" />
         <option value="$PROJECT_DIR$/public/server/services/saveSearchingHistory.js" />
         <option value="$PROJECT_DIR$/public/server/app.js" />
         <option value="$PROJECT_DIR$/public/client/config.js" />
-        <option value="$PROJECT_DIR$/public/server/services/user.service.js" />
-        <option value="$PROJECT_DIR$/public/client/views/searchHistory/searchHistory.controller.js" />
-        <option value="$PROJECT_DIR$/public/client/views/searchHistory/searchHistory.view.html" />
-        <option value="$PROJECT_DIR$/test.js" />
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/public/client/app.js" />
         <option value="$PROJECT_DIR$/public/client/views/sidebar/sidebar.view.html" />
-        <option value="$PROJECT_DIR$/public/client/views/header/header.view.html" />
-        <option value="$PROJECT_DIR$/public/client/views/searchResults/searchResults.controller.js" />
-        <option value="$PROJECT_DIR$/public/client/views/searchResults/searchResults.view.html" />
-        <option value="$PROJECT_DIR$/public/client/views/mainpage/mainpage.js" />
-        <option value="$PROJECT_DIR$/public/client/views/header/header.controller.js" />
         <option value="$PROJECT_DIR$/public/client/services/weatherService.js" />
+        <option value="$PROJECT_DIR$/test.js" />
+        <option value="$PROJECT_DIR$/public/client/views/mainpage/mainpage.js" />
+        <option value="$PROJECT_DIR$/public/client/views/searchResults/searchResults.controller.js" />
+        <option value="$PROJECT_DIR$/public/client/views/mainpage/mainpage.view.html" />
+        <option value="$PROJECT_DIR$/public/client/views/searchResults/searchResults.view.html" />
+        <option value="$PROJECT_DIR$/public/client/views/header/header.controller.js" />
+        <option value="$PROJECT_DIR$/public/server/services/user.service.js" />
+        <option value="$PROJECT_DIR$/public/client/views/searchHistory/searchHistory.controller.js" />
+        <option value="$PROJECT_DIR$/public/client/views/searchHistory/searchHistory.view.html" />
         <option value="$PROJECT_DIR$/public/client/index.html" />
+        <option value="$PROJECT_DIR$/public/client/views/header/header.view.html" />
+        <option value="$PROJECT_DIR$/public/client/components/css/dashboard.css" />
       </list>
     </option>
   </component>
@@ -96,9 +384,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="710" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -123,7 +410,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -299,10 +585,6 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mainpage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -348,12 +630,39 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weather" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weather" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -365,21 +674,29 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="FullScreen" value="false" />
+    <property name="FullScreen" value="true" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/public/client" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/client/css" />
+      <recent name="$PROJECT_DIR$/public/client/components" />
       <recent name="$PROJECT_DIR$/public/client" />
+      <recent name="$PROJECT_DIR$/public/components/js" />
+      <recent name="$PROJECT_DIR$/public/components" />
+      <recent name="$PROJECT_DIR$/public/client/css" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.server.js">
+  <component name="RunManager" selected="Node.js.test.js">
     <configuration default="false" name="server.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="server.js" working-dir="$PROJECT_DIR$">
+      <method />
+    </configuration>
+    <configuration default="false" name="test.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="test.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -412,14 +729,22 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Node.js.server.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.test.js" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.server.js" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.test.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.server.js" />
       </list>
     </recent_temporary>
   </component>
@@ -437,46 +762,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="710" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31532964" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2660842" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3883495" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44520548" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847896" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31532964" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32876712" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -496,18 +802,47 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/client/css/dashboard.css">
+    <entry file="file://$PROJECT_DIR$/public/client/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.259259">
-          <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="52" column="77" selection-start-line="52" selection-start-column="69" selection-end-line="52" selection-end-column="77" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.js">
+    <entry file="file://$PROJECT_DIR$/public/client/views/mainpage/mainpage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="44" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="44" />
+          <caret line="48" column="119" selection-start-line="48" selection-start-column="119" selection-end-line="48" selection-end-column="119" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/client/views/mainpage/mainpage.view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#3;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/client/services/weatherService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#44#0" expanded="false" />
           </folding>
@@ -518,50 +853,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#44#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/client/views/mainpage/mainpage.view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.625">
-          <caret line="9" column="51" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="180" column="0" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/client/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/server/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#44#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/server/services/user.service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
           <folding>
             <element signature="e#0#44#0" expanded="false" />
           </folding>
@@ -582,69 +873,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.125">
           <caret line="5" column="16" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/client/views/header/header.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55727553">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/client/views/header/header.view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5214724">
-          <caret line="23" column="173" selection-start-line="23" selection-start-column="173" selection-end-line="23" selection-end-column="173" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/client/views/mainpage/mainpage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3">
-          <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#44#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/client/views/searchResults/searchResults.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.1142857">
-          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#44#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/client/views/searchResults/searchResults.view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="62" selection-start-line="0" selection-start-column="62" selection-end-line="0" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/client/views/searchHistory/searchHistory.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34285715">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#44#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/client/views/searchHistory/searchHistory.view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6441718">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -656,20 +884,206 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/client/services/weatherService.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.5">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/client/weather-icons-master/css/weather-icons.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="52" selection-start-line="54" selection-start-column="52" selection-end-line="54" selection-end-column="52" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/client/components/css/pace.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/client/components/pace-1.0.2/docs/lib/color.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/client/components/js/pace.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/client/components/css/download.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.8619719">
+          <caret line="692" column="71" selection-start-line="692" selection-start-column="71" selection-end-line="692" selection-end-column="71" />
+          <folding>
+            <marker date="1462653225000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/client/views/mainpage/mainpage.view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.8169014">
+          <caret line="41" column="36" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#3;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/client/views/mainpage/mainpage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.91029024">
+          <caret line="31" column="28" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="28" />
           <folding>
             <element signature="e#0#44#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/client/services/weatherService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22427441">
+          <caret line="189" column="42" selection-start-line="189" selection-start-column="17" selection-end-line="189" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3350923">
+          <caret line="180" column="0" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.59366757">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/server/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.079155676">
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/server/services/user.service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39577836">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/client/views/searchResults/searchResults.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.1278409">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/client/views/searchResults/searchResults.view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08450704">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/client/views/searchHistory/searchHistory.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47493404">
+          <caret line="14" column="69" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/client/views/searchHistory/searchHistory.view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="49" selection-start-line="0" selection-start-column="49" selection-end-line="0" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/client/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1993865">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        <state vertical-scroll-proportion="-10.625">
+          <caret line="21" column="203" selection-start-line="21" selection-start-column="203" selection-end-line="21" selection-end-column="203" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/client/views/header/header.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/client/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/client/views/header/header.view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.75">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#1;n#div#0;n#nav#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/client/components/css/dashboard.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27142859">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
           <folding />
         </state>
       </provider>

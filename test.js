@@ -15,6 +15,6 @@ if(object){
 
     myDate = new Date(1000*1462431600);
 
-console.log(myDate.toString().substring(0,4));
+console.log(myDate.toString().substring(0,21));
 console.log(myDate.toLocaleString());
 console.log(myDate.toUTCString());

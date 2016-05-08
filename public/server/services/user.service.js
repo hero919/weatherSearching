@@ -29,9 +29,10 @@ console.log("Connected");
             res.send(200);
 
         }else {
+            console.log(req.session);
             req.session.history = [];
             req.session.history.push(history);
-            console.log(req.session.history);
+
             res.send(200);
         }
 

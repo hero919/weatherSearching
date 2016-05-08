@@ -6,10 +6,20 @@
         .module('weather')
         .factory("weatherService", weatherService);
 
+    function weatherShareInfo(){
+        var searchName = null;
+
+
+
+
+
+    }
+
     function weatherService($http, $q){
 
         var GoogleAPIKey = "AIzaSyB0p62vFkkTZWwjOAUWbMBAytxIkbpPy6c";
         var weatherAPIKey = "aa7eb74cde7b5118eb567834d8c4216c";
+        var sharedLocation = null;
         var api = {
             getCurrentLatLng : getCurrentLatLng,
             getCurrentLocation : getCurrentLocation,
@@ -22,14 +32,70 @@
             saveSearchingHistory: saveSearchingHistory,
             getSearchHistory : getSearchHistory,
             getDate : getDate,
-            getDrawLineColorsData: drawLineColors
-
+            getDrawLineColorsData: drawLineColors,
+            autoFillLocation : autoFillLocation,
+            getSharedLocation : getSharedLocation,
+            setSharedLocation : setSharedLocation,
+            getCorrespondingWeatherIcons: getCorrespondingWeatherIcons
         };
 
         return api;
 
+//clear-day, clear-night, rain, snow, sleet, wind, fog, cloudy, partly-cloudy-day, or partly-cloudy-night
+        function getCorrespondingWeatherIcons(icon){
+            var result = null;
+            switch (icon){
+                case "clear-day": result = "wi wi-day-sunny";
+                    break;
+                case "clear-night": result = "wi wi-night-clear";
+                    break;
+                case "rain": result = "wi wi-rain";
+                    break;
+                case "snow": result = "wi wi-snow";
+                    break;
+                case "sleet": result = "wi wi-sleet";
+                    break;
+                case "wind": result = "wi wi-windy";
+                    break;
+                case "fog": result = "wi wi-fog";
+                    break;
+                case "cloudy": result = "wi wi-cloudy";
+                    break;
+                case "partly-cloudy-day": result = "wi wi-day-cloudy";
+                    break;
+                case "partly-cloudy-night": result = "wi wi-night-alt-cloudy";
+                    break;
+                default : result = "wi wi-na";
+            }
+
+            return result;
 
 
+
+        }
+        function setSharedLocation(location){
+            sharedLocation = location;
+        }
+
+
+        function getSharedLocation(){
+            return sharedLocation;
+        }
+
+        function autoFillLocation(location){
+            var deferred = $q.defer();
+            var url = "https://maps.googleapis.com/maps/api/geocode/json?address=" +
+                location +
+                "&key=" +
+                GoogleAPIKey;
+
+            $http.get(url).
+                success(function(response) {
+                    console.log(response);
+                    deferred.resolve(response);
+                });
+            return deferred.promise;
+        }
 
 
         function drawLineColors(weatherInfo){
@@ -87,7 +153,7 @@
                 GoogleAPIKey;
             $http.get(url)
                 .success(function(response){
-                    console.log(response);
+                    //console.log(response);
                     deferred.resolve(response);
                 });
 
@@ -184,8 +250,10 @@
                 "&key=" +
                 GoogleAPIKey;
 
+            console.log(url);
             $http.get(url).
                 success(function(response){
+                    //console.log(response);
                     console.log(response);
                     if(response.results.length == 1){
                         var location = response.results[0].geometry.location;
@@ -210,7 +278,7 @@
             var deferred = $q.defer();
             if (navigator.geolocation) {
                 navigator.geolocation.getCurrentPosition(function(position) {
-                    console.log(position);
+                   // console.log(position);
                     var pos = {
                         lat: position.coords.latitude,
                         lng: position.coords.longitude
@@ -231,7 +299,7 @@
             var deferred = $q.defer();
             getCurrentLatLng().then(function(loc){
                 if(loc){
-                    console.log(loc);
+                   // console.log(loc);
                     var lat = loc.lat;
                     var lng = loc.lng;
 
@@ -244,7 +312,7 @@
                         GoogleAPIKey;
                     $http.get(url)
                         .success(function(response){
-                            console.log(response);
+                           // console.log(response);
                             deferred.resolve(response);
                         });
 
@@ -278,7 +346,7 @@
                         "&&callback=JSON_CALLBACK";
                     $http.jsonp(url)
                         .success(function(response){
-                            console.log(response);
+                           // console.log(response);
                             deferred.resolve(response);
                         })
 

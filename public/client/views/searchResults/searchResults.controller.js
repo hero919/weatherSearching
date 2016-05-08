@@ -16,6 +16,10 @@
             lng: lng
         };
 
+        function getTime(num){
+            var date = new Date(num*1000);
+            return date.toString().substring(0,21);
+        }
 
         function convertFtoC(f){
             return Math.floor((f - 32) * (5/9));
@@ -23,7 +27,7 @@
 
         weatherService.getSearchLocatinoFullNameByLatLng(loc).then(function(response){
             if(response.results.length != 0) {
-                $scope.location = response.results[0].formatted_address;
+                $scope.location = weatherService.getSharedLocation();
             }else{
                 $scope.message = "The Enter Location can't be found or have multiple choices. Please Specify the location";
             }
@@ -33,9 +37,24 @@
 
         weatherService.getWeatherByLatLng(loc).then(function(response){
             if(response) {
-                $scope.precipType = response.currently.precipType;
-                $scope.temperatureF = response.currently.temperature;
+                $scope.icon = response.currently.icon;
+                $scope.weatherIcons = weatherService.getCorrespondingWeatherIcons(response.currently.icon);
+                $scope.temperatureF = Math.floor(response.currently.temperature);
                 $scope.temperatureC = convertFtoC(response.currently.temperature);
+                $scope.time = getTime(response.currently.time);
+                var summary = "Summary: " + response.currently.summary;
+
+                $scope.summary = summary;
+
+                var Precipitation = "Precipitation: "+ Math.floor(response.currently.precipProbability)*100 + "%";
+                $scope.Precipitation = Precipitation;
+
+                var humidity = "Humidity: "+ Math.floor(response.currently.humidity*100) + "%";
+                $scope.humidity = humidity;
+
+                var wind = "Wind: " + Math.floor(response.currently.windSpeed*100) + "m/s";
+
+                $scope.wind = wind;
                 google.charts.setOnLoadCallback(drawLineColors);
             }else{
                 $scope.message = "The Enter Location can't be found or have multiple choices. Please Specify the location";

@@ -1,14 +1,41 @@
 <div ng-show="message" class="alert alert-danger" role="alert">{{message}} </div>
-<h2 ng-show="location">The location you search is: {{location}}</h2>
+<h2>{{location}}</h2>
+<h2>{{time}}</h2>
 
 
+<div class="row" ng-show="currently">
+    <div class="col-sm-7">
+        <div class="col-sm-7" style="padding-top: 40px">
+            <i class="{{weatherIcons}}" style="font-size: 200px"></i>
+        </div>
+        <div class="col-sm-5" style="padding-left: 0px">
+            <h1 style="font-size: 100px; display: inline-block">{{temperatureF}}</h1>
+            <i class="wi wi-fahrenheit" style="font-size: 110px;"></i>
+        </div>
+        <!--<h1>{{icon}}</h1>-->
+        <!--<h1>Fahrenheit: {{temperatureF}} </h1>-->
+        <!--<h1>Celsius: {{temperatureC}}</h1>-->
+    </div>
 
-<div>
-    <h1 ng-show="temperatureF">Right Now</h1>
-    <h1 ng-show="precipType">{{precipType}}</h1>
-    <h1 ng-show="temperatureF">Fahrenheit: {{temperatureF}} </h1>
-    <h1 ng-show="temperatureC">Celsius: {{temperatureC}}</h1>
-    <div id="searchLocationTemperatureChart"></div>
+    <div class="col-sm-5">
+        <div>
+            <p style="font-size: 30px; color: dimgray">{{summary}}</p>
+        </div>
+        <div>
+            <p style="font-size: 30px; color: dimgray">{{Precipitation}}</p>
+        </div>
+        <div>
+            <p style="font-size: 30px; color: dimgray">{{humidity}}</p>
+        </div>
+        <div>
+            <p style="font-size: 30px; color: dimgray">{{wind}}</p>
+        </div>
 
+
+    </div>
 
 </div>
+
+
+
+<div id="searchLocationTemperatureChart"></div>

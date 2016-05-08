@@ -12,21 +12,29 @@
             var keyCode = $event.which || $event.keyCode;
             if (keyCode === 13) {
                 var location = $scope.location;
-                weatherService.getSearchLocationLatLng(location).then(function(response){
-                    console.log(response);
-                    $location.url('/weatherSearch/' +
-                        response.lat +
-                        ',' +
-                        response.lng);
 
-                    weatherService.getSearchLocatinoFullNameByLatLng(response).then(function(fullName){
-                        if(fullName.results.length != 0) {
-                            var fullName = fullName.results[0].formatted_address;
-                            $scope.location = fullName;
-                            weatherService.saveSearchingHistory(fullName);
-                        }
-                    })
+                weatherService.getSearchLocationFullName(location).then(function(response){
+                    if(response) {
+                        $scope.location = response;
+                        weatherService.saveSearchingHistory(response);
+                        weatherService.setSharedLocation(response);
+                        weatherService.getSearchLocationLatLng(location).then(function (response) {
+                            console.log(response);
+                            $location.url('/weatherSearch/' +
+                                response.lat +
+                                ',' +
+                                response.lng);
+                        });
+                    }else{
+                        $location.url('/weatherSearch/' +
+                            response.lat +
+                            ',' +
+                            response.lng);
+                    }
+
                 });
+
+
 
 
 
