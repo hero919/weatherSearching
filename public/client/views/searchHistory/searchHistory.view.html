@@ -1,15 +1,16 @@
-<div ng-show="message" class="alert alert-warning" role="alert">{{message}} </div>
-<table class="table table-striped" ng-show="his">
+<div ng-show="message" class="alert alert-warning" role="alert" style="margin-top: 20px">{{message}} </div>
+<table class="table table-striped" ng-show="history" ng-controller="searchHistoryController as model">
     <thead>
         <tr>
             <th>Search History</th>
+            <th></th>
         </tr>
+
     </thead>
     <tbody>
     <!--Used tracked by since the value is duplicated-->
     <tr ng-repeat="his in history track by $index">
-        <td>{{his}}</td>
+        <td><a href ng-click="model.getAndSetSearchResult(his)">{{his}}</a></td>
     </tr>
-
     </tbody>
 </table>

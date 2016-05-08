@@ -2,12 +2,7 @@
         <div ng-controller="sidebarController as model">
             <ul class="nav nav-sidebar">
                 <li ng-class="{'active': model.$location.url() == '/mainpage'}"><a href="#/mainpage">CurrentLocation</a></li>
-                <!--<span class="sr-only">(current)</span>-->
-                <!--<li ng-class="{'active': model.$location.url() == '/weatherSearch/:lat,:lng'}"><a href="#">SearchLocation</a></li>-->
-                <!--<li ng-class="{'active': model.$location.url() == '/register'}"><a href="#">Admin</a></li>-->
                 <li ng-class="{'active': model.$location.url() == '/searchHistory'}"><a href="#/searchHistory">SearchHistory</a></li>
-
-                <!--<li ng-class="{'active': model.$location.url() == '/register'}"><a href="#">Forms</a></li>-->
             </ul>
         </div>
 

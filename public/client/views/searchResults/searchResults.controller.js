@@ -37,6 +37,7 @@
 
         weatherService.getWeatherByLatLng(loc).then(function(response){
             if(response) {
+                $scope.currently = response.currently;
                 $scope.icon = response.currently.icon;
                 $scope.weatherIcons = weatherService.getCorrespondingWeatherIcons(response.currently.icon);
                 $scope.temperatureF = Math.floor(response.currently.temperature);

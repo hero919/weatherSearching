@@ -26,67 +26,6 @@
                 controller: 'searchHistoryController',
                 controllerAs: "model"
             }).
-            //
-            //when('/airlinesSearching', {
-            //    templateUrl: 'views/airlinesSearching/airlinesSearching.view.html',
-            //    controller: 'airlinesSearchingController',
-            //    controllerAs: "model"
-            //    //controllerAs: "model"
-            //}).
-            //when('/register', {
-            //    templateUrl: 'views/register/register.view.html',
-            //    controller: 'RegisterController',
-            //    controllerAs: "model"
-            //
-            //}).
-            //when('/favoriteAirlines', {
-            //    templateUrl: 'views/favoriteAirlines/favoriteAirlines.view.html',
-            //    controller: 'favoriteAirlinesController',
-            //    controllerAs: "model"
-            //
-            //}).
-            //
-            ////#/api/project/airlines/{{airline._id}}/details
-            //
-            //when('/api/project/airlines/:flightId/details', {
-            //    templateUrl: 'views/favoriteAirlines/favoriteAirlines.view.html',
-            //    controller: 'favoriteAirlinesController',
-            //    controllerAs: "model"
-            //
-            //
-            //}).
-            //
-            //when('/api/project/hotels/:hotelId/:checkInDate/:checkOutDate/details', {
-            //    templateUrl: 'views/favoriteAirlines/favoriteAirlines.view.html',
-            //    controller: 'favoriteAirlinesController',
-            //    controllerAs: "model"
-            //
-            //}).
-            //
-            //
-            //
-            //
-            //when('/flightSearch', {
-            //    templateUrl: 'views/airlinesSearching/airlinesSearching.view.html',
-            //    controller: "airlinesSearchingController"
-            //    // controllerAs:"model"
-            //}).
-            //when('/flightSearch/from/:flyFrom/to/:flyTo/:year/:month/:day/maxFlight/:maxFlight', {
-            //    templateUrl: 'views/airlinesSearching/airlinesSearching.view.html',
-            //    controller: "airlinesSearchingController"
-            //    // controllerAs:"model"
-            //}).
-            //when('/hotelSearch', {
-            //    templateUrl: 'views/hotelsSearching/hotelsSearching.view.html',
-            //    controller: "hotelsSearchingController"
-            //    //controllerAs:"model"
-            //}).
-            //when('/hotelSearch/location/:location/checkInDate/:checkInDate/checkOutDate/:checkOutDate/radius/:radius/maxHotels/:maxHotels', {
-            //    templateUrl: 'views/hotelsSearching/hotelsSearching.view.html',
-            //    controller: "hotelsSearchingController"
-            //    //controllerAs:"model"
-            //}).
-
             otherwise({
                 redirectTo: 'mainpage'
             });

@@ -1,4 +1,5 @@
-<nav class="navbar navbar-default navbar-fixed-top" ng-controller="headerController">
+
+<nav ng-controller="headerController as model" class="navbar navbar-default navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -14,8 +15,8 @@
                 <input type="text" class="form-control" placeholder="Enter a location..." ng-model="location" ng-keypress="checkIfEnterKeyWasPressed($event)" style="width: 400px">
             </form>
             <ul class="nav navbar-nav">
-                <li><a href="#/mainpage">Current Location</a></li>
-                <li><a href="#/searchHistory">Search History</a></li>
+                <li ng-class="{'active': model.$location.url() == '/mainpage'}" ng-if="checkSize"><a href="#/mainpage">Current Location</a></li>
+                <li ng-class="{'active': model.$location.url() == '/searchHistory'}" ng-if="checkSize"><a href="#/searchHistory">Search History</a></li>
             </ul>
 
         </div><!--/.nav-collapse -->

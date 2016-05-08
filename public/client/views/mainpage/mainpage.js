@@ -45,7 +45,7 @@
             var humidity = "Humidity: "+ Math.floor(response.currently.humidity*100) + "%";
             $scope.humidity = humidity;
 
-            var wind = "Wind: " + Math.floor(response.currently.windSpeed*100) + "m/s";
+            var wind = "Wind: " + Math.floor(response.currently.windSpeed) + "mile/hour";
 
             $scope.wind = wind;
 

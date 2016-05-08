@@ -7,7 +7,31 @@
         .controller("headerController", headerController);
 
     function headerController($scope, weatherService, $location) {
-        var location = $scope.location;
+        var vm = this;
+
+        function init(){
+            vm.$location = $location;
+        }
+
+        init();
+
+
+        function initSize() {
+            $scope.checkSize = (window.innerWidth < 768);
+        }
+
+        //Used For the first time getting the size of the window.
+        initSize();
+        $(window).resize(function(){
+            var checkSize = (window.innerWidth < 768);
+            $scope.$apply(function(){
+
+                $scope.checkSize = (window.innerWidth < 768);
+            })
+
+        });
+
+
         $scope.checkIfEnterKeyWasPressed = function ($event) {
             var keyCode = $event.which || $event.keyCode;
             if (keyCode === 13) {

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
 
+    <link rel="shortcut icon" href="images/weather.png">
     <link href="components/css/dashboard.css" rel="stylesheet">
     <link href="./weather-icons-master/css/weather-icons.min.css" rel="stylesheet">
     <link href="components/pace-1.0.2/themes/blue/pace-theme-center-simple.css">
@@ -56,10 +57,13 @@
 
 <div class="container-fluid">
     <div class="row">
+
         <div ng-include="'./views/sidebar/sidebar.view.html'" class="col-sm-3 sidebar">
 
+
+
         </div>
-        <div ng-view class="col-sm-9">
+        <div ng-view class="col-sm-9 rightSide">
 
 
         </div>
