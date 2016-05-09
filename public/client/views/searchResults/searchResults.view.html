@@ -1,5 +1,5 @@
 
-<div ng-hide="location">
+<div ng-hide="location == undefined & message != undefined">
     <p style="font-size: 30px; color: dimgray">Loading...</p>
 </div>
 <div ng-show="message" class="alert alert-danger" role="alert" style="margin-top: 20px">{{message}} </div>
