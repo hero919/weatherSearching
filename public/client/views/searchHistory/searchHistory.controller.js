@@ -31,7 +31,7 @@
             weatherService.saveSearchingHistory(his);
             weatherService.setSharedLocation(his);
             weatherService.getSearchLocationLatLng(his).then(function (response) {
-                console.log(response);
+                //console.log(response);
                 $location.url('/weatherSearch/' +
                     response.lat +
                     ',' +

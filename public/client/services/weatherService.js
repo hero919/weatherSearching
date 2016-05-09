@@ -192,7 +192,7 @@
             $http.get(url).
                 success(function(response){
                     console.log(response);
-                    if(response.results.length <= 2){
+                    if(response.results.length <= 2&&response.results != 0){
                         var formatted_address = response.results[0].formatted_address;
                         deferred.resolve(formatted_address);
 
@@ -248,10 +248,7 @@
             //console.log(url);
             $http.get(url).
                 success(function(response){
-                    //console.log(response);
-                    console.log(response);
-
-                    if(response.results.length <= 2){
+                    if(response.results.length <= 2&&response.results != 0){
                         var location = response.results[0].geometry.location;
                         deferred.resolve(location);
 
