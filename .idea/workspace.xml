@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8fbcd92-7f07-403e-b400-4a99688424b3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/client/config.js" afterPath="$PROJECT_DIR$/public/client/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/client/components/css/dashboard.css" afterPath="$PROJECT_DIR$/public/client/components/css/dashboard.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/client/views/header/header.controller.js" afterPath="$PROJECT_DIR$/public/client/views/header/header.controller.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/client/views/header/header.view.html" afterPath="$PROJECT_DIR$/public/client/views/header/header.view.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/client/views/mainpage/mainpage.js" afterPath="$PROJECT_DIR$/public/client/views/mainpage/mainpage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/client/views/mainpage/mainpage.view.html" afterPath="$PROJECT_DIR$/public/client/views/mainpage/mainpage.view.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/client/views/searchResults/searchResults.controller.js" afterPath="$PROJECT_DIR$/public/client/views/searchResults/searchResults.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/client/views/searchResults/searchResults.view.html" afterPath="$PROJECT_DIR$/public/client/views/searchResults/searchResults.view.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/client/services/weatherService.js" afterPath="$PROJECT_DIR$/public/client/services/weatherService.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="weather.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,6 +47,18 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="header.view.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/client/views/header/header.view.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.42372882">
+              <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+              <folding>
+                <element signature="n#style#0;n#input#0;n#form#0;n#div#1;n#div#0;n#nav#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="searchResults.view.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/client/views/searchResults/searchResults.view.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -72,10 +74,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/client/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-16.25">
+              <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="mainpage.view.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/client/views/mainpage/mainpage.view.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.75">
+            <state vertical-scroll-proportion="-28.125">
               <caret line="45" column="53" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
@@ -111,10 +123,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="weatherService.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="weatherService.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/client/services/weatherService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37606838">
+            <state vertical-scroll-proportion="-4.888889">
               <caret line="198" column="22" selection-start-line="198" selection-start-column="22" selection-end-line="198" selection-end-column="22" />
               <folding>
                 <element signature="e#0#44#0" expanded="false" />
@@ -157,12 +169,12 @@
         <option value="$PROJECT_DIR$/public/client/index.html" />
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/public/client/views/header/header.controller.js" />
-        <option value="$PROJECT_DIR$/public/client/views/header/header.view.html" />
         <option value="$PROJECT_DIR$/public/client/views/mainpage/mainpage.view.html" />
         <option value="$PROJECT_DIR$/public/client/views/searchResults/searchResults.controller.js" />
         <option value="$PROJECT_DIR$/public/client/views/mainpage/mainpage.js" />
         <option value="$PROJECT_DIR$/public/client/config.js" />
         <option value="$PROJECT_DIR$/public/client/services/weatherService.js" />
+        <option value="$PROJECT_DIR$/public/client/views/header/header.view.html" />
       </list>
     </option>
   </component>
@@ -813,14 +825,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/client/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.6078432">
-          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -834,16 +838,6 @@
         <state vertical-scroll-proportion="-11.875">
           <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/client/views/header/header.view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.875">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#form#0;n#div#1;n#div#0;n#nav#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -908,9 +902,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/client/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/client/services/weatherService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.888889">
+          <caret line="198" column="22" selection-start-line="198" selection-start-column="22" selection-end-line="198" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/client/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.25">
+          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/client/views/mainpage/mainpage.view.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.75">
+        <state vertical-scroll-proportion="-28.125">
           <caret line="45" column="53" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
           <folding>
             <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
@@ -923,20 +943,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/client/config.js">
+    <entry file="file://$PROJECT_DIR$/public/client/views/header/header.view.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/client/services/weatherService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37606838">
-          <caret line="198" column="22" selection-start-line="198" selection-start-column="22" selection-end-line="198" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.42372882">
+          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
           <folding>
-            <element signature="e#0#44#0" expanded="false" />
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#1;n#div#0;n#nav#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
