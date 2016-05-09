@@ -6,20 +6,13 @@
         .module('weather')
         .factory("weatherService", weatherService);
 
-    function weatherShareInfo(){
-        var searchName = null;
-
-
-
-
-
-    }
 
     function weatherService($http, $q){
 
         var GoogleAPIKey = "AIzaSyB0p62vFkkTZWwjOAUWbMBAytxIkbpPy6c";
         var weatherAPIKey = "aa7eb74cde7b5118eb567834d8c4216c";
         var sharedLocation = null;
+
         var api = {
             getCurrentLatLng : getCurrentLatLng,
             getCurrentLocation : getCurrentLocation,
@@ -40,6 +33,8 @@
         };
 
         return api;
+
+
 
 //clear-day, clear-night, rain, snow, sleet, wind, fog, cloudy, partly-cloudy-day, or partly-cloudy-night
         function getCorrespondingWeatherIcons(icon){
@@ -250,12 +245,13 @@
                 "&key=" +
                 GoogleAPIKey;
 
-            console.log(url);
+            //console.log(url);
             $http.get(url).
                 success(function(response){
                     //console.log(response);
                     console.log(response);
-                    if(response.results.length == 1){
+
+                    if(response.results.length <= 2){
                         var location = response.results[0].geometry.location;
                         deferred.resolve(location);
 

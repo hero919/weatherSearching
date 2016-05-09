@@ -1,40 +1,7 @@
-<!--<script>-->
-    <!--function load(time){-->
-        <!--var x = new XMLHttpRequest();-->
-        <!--x.open('GET', "http://localhost:3000/#/mainpage/" + time, true);-->
-        <!--x.send();-->
-    <!--};-->
+<div ng-hide="location">
+    <p style="font-size: 30px; color: dimgray">Loading...</p>
+</div>
 
-    <!--load(20);-->
-    <!--load(100);-->
-    <!--load(500);-->
-    <!--load(2000);-->
-    <!--load(3000);-->
-
-    <!--setTimeout(function(){-->
-        <!--Pace.ignore(function(){-->
-            <!--load(3100);-->
-        <!--});-->
-    <!--}, 4000);-->
-
-    <!--Pace.on('hide', function(){-->
-        <!--console.log('done');-->
-    <!--});-->
-<!--</script>-->
-<!--<div>-->
-    <!--Hello-->
-<!--<input id="range" type="range" min="0" max="100">-->
-<!--</div>-->
-<!--<script>-->
-    <!--range.addEventListener('input', function(){-->
-        <!--document.querySelector('.pace').classList.remove('pace-inactive');-->
-        <!--document.querySelector('.pace').classList.add('pace-active');-->
-
-        <!--console.log(range.value);-->
-        <!--document.querySelector('.pace-progress').setAttribute('data-progress-text', range.value + '%');-->
-        <!--document.querySelector('.pace-progress').setAttribute('style', '-webkit-transform: translate3d(' + range.value + '%, 0px, 0px)');-->
-    <!--});-->
-<!--</script>-->
 <h2>{{location}}</h2>
 <h2>{{time}}</h2>
 
@@ -74,5 +41,36 @@
 
 
 
+
+
+<table ng-show="futureDays" class="table table-striped" ng-controller="mainpageController as model" style="font-size: 20px">
+    <thead>
+    <tr>
+        <th>Date</th>
+        <th>Icon</th>
+        <th>Daily Summary</th>
+        <th>TemperatureMIN</th>
+        <th>TemperatureMAX</th>
+    </tr>
+    </thead>
+    <tbody ng-repeat="data in futureDays track by $index">
+    <tr>
+        <td>{{model.weatherService.getDate(data.time)}}</td>
+        <td><i class="{{model.weatherService.getCorrespondingWeatherIcons(data.icon)}}"></i></td>
+        <td>{{data.summary}}</td>
+        <td>{{data.temperatureMin}}<i class="wi wi-fahrenheit" style="font-size: 23px;"></i></td>
+        <td>{{data.temperatureMax}}<i class="wi wi-fahrenheit" style="font-size: 23px;"></i></td>
+    </tr>
+
+
+    </tbody>
+
+
+
+</table>
+
+<div ng-show="futureDays">
+    <h2><span class="label label-pill label-info">Recent 7 Days Temperature:</span></h2>
+</div>
 <div id="currentLocationTemperatureChart" style="padding-top: 30px"></div>
 

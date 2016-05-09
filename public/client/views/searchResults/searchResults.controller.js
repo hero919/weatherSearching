@@ -8,6 +8,14 @@
         .controller("searchResultsController", searchResultsController);
 
     function searchResultsController($routeParams,weatherService, $scope){
+
+        var vm = this;
+        function init(){
+            vm.$scope = $scope;
+            vm.weatherService = weatherService;
+        }
+        init();
+
         var lat = $routeParams.lat;
         var lng = $routeParams.lng;
 
@@ -15,6 +23,8 @@
             lat: lat,
             lng: lng
         };
+
+
 
         function getTime(num){
             var date = new Date(num*1000);
@@ -53,9 +63,10 @@
                 var humidity = "Humidity: "+ Math.floor(response.currently.humidity*100) + "%";
                 $scope.humidity = humidity;
 
-                var wind = "Wind: " + Math.floor(response.currently.windSpeed*100) + "m/s";
+                var wind = "Wind: " + Math.floor(response.currently.windSpeed) + "miles/hour";
 
                 $scope.wind = wind;
+                $scope.futureDays = response.daily.data;
                 google.charts.setOnLoadCallback(drawLineColors);
             }else{
                 $scope.message = "The Enter Location can't be found or have multiple choices. Please Specify the location";

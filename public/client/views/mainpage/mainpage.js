@@ -13,6 +13,14 @@
         //})
 
 
+
+        var vm = this;
+        function init(){
+            vm.$scope = $scope;
+            vm.weatherService = weatherService;
+        }
+        init();
+
         function convertFtoC(f){
             return Math.floor((f - 32) * (5/9));
         }
@@ -45,9 +53,13 @@
             var humidity = "Humidity: "+ Math.floor(response.currently.humidity*100) + "%";
             $scope.humidity = humidity;
 
-            var wind = "Wind: " + Math.floor(response.currently.windSpeed) + "mile/hour";
+            var wind = "Wind: " + Math.floor(response.currently.windSpeed) + "miles/hour";
 
             $scope.wind = wind;
+            $scope.futureDays = response.daily.data;
+
+
+
 
 
             function drawLineColors() {
