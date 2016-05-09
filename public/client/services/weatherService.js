@@ -192,7 +192,7 @@
             $http.get(url).
                 success(function(response){
                     console.log(response);
-                    if(response.results.length == 1){
+                    if(response.results.length <= 2){
                         var formatted_address = response.results[0].formatted_address;
                         deferred.resolve(formatted_address);
 
