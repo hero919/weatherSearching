@@ -15,7 +15,6 @@
 
         init();
 
-
         function initSize() {
             $scope.checkSize = (window.innerWidth < 768);
         }
@@ -31,12 +30,10 @@
 
         });
 
-
         $scope.checkIfEnterKeyWasPressed = function ($event) {
             var keyCode = $event.which || $event.keyCode;
             if (keyCode === 13) {
                 var location = $scope.location;
-
                 weatherService.getSearchLocationFullName(location).then(function(response){
                     if(response) {
                         $scope.location = response;
@@ -55,16 +52,8 @@
                             ',' +
                             response.lng);
                     }
-
                 });
-
-
-
-
-
             }
-
-
         }
     }
 

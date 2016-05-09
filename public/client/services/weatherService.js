@@ -161,20 +161,25 @@
 
         function getWeatherByLatLng(loc){
             var deferred = $q.defer();
-            var lat = loc.lat;
-            var lng = loc.lng;
-            var url ="https://json2jsonp.com/?url=" +
-                "https://api.forecast.io/forecast/" +
-                weatherAPIKey +
-                "/" +
-                lat +
-                "," +
-                lng +
-                "&&callback=JSON_CALLBACK";
-            $http.jsonp(url)
-                .success(function(response){
-                    deferred.resolve(response);
-                });
+            if(loc.lat != 'undefined'&&loc.lng != 'undefined'){
+                var lat = loc.lat;
+                var lng = loc.lng;
+                var url ="https://json2jsonp.com/?url=" +
+                    "https://api.forecast.io/forecast/" +
+                    weatherAPIKey +
+                    "/" +
+                    lat +
+                    "," +
+                    lng +
+                    "&&callback=JSON_CALLBACK";
+                $http.jsonp(url)
+                    .success(function(response){
+                        deferred.resolve(response);
+                    });
+
+            }else{
+                deferred.resolve(false);
+            }
 
             return deferred.promise;
 
@@ -191,7 +196,7 @@
 
             $http.get(url).
                 success(function(response){
-                    console.log(response);
+                    //console.log(response);
                     if(response.results.length <= 2&&response.results != 0){
                         var formatted_address = response.results[0].formatted_address;
                         deferred.resolve(formatted_address);
@@ -327,8 +332,6 @@
                 if(loc){
                     var lat = loc.lat;
                     var lng = loc.lng;
-
-
                     var url ="https://json2jsonp.com/?url=" +
                         "https://api.forecast.io/forecast/" +
                         weatherAPIKey +
@@ -346,8 +349,6 @@
                 }else{
                     deferred.resolve(false);
                 }
-
-
             });
 
             return deferred.promise;

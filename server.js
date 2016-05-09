@@ -178,53 +178,8 @@ app.use(session({
 app.use(cookieParser());
 
 
-
-//var bodyParser = require('body-parser');
-//var mongoose = require('mongoose');
-//var connectionString ='mongodb://127.0.0.1:27017/airlinesSearchingSystem01';
-//if(process.env.OPENSHIFT_MONGODB_DB_PASSWORD) {
-//    connectionString = process.env.OPENSHIFT_MONGODB_DB_USERNAME + ":" +
-//        process.env.OPENSHIFT_MONGODB_DB_PASSWORD + "@" +
-//        process.env.OPENSHIFT_MONGODB_DB_HOST + ':' +
-//        process.env.OPENSHIFT_MONGODB_DB_PORT + '/' +
-//        process.env.OPENSHIFT_APP_NAME;
-//}
-//
-//
-//var db = mongoose.connect(connectionString);
-//
-////var multer = require('multer');
-//app.use(bodyParser.json());
-//app.use(bodyParser.urlencoded({ extended: true }));
-//
-//
-//
-////Start Using PassportJS
-//app.use(session({
-//    secret: 'this is the secret',
-//    resave: true,
-//    saveUninitialized: true
-//}));
-//app.use(cookieParser());
-//app.use(passport.initialize());
-//app.use(passport.session());
-
-
-
-
-//app.use(session({ secret: process.env.PASSPORT_SECRET }));
 app.use(express.static(__dirname + '/public/client'));
-//require("./public/server/app.js")(app, mongoose, db);
-//var sendgrid = require("sendgrid")("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");
-////app.post('/api/project/airlines/contact');
-//var email = new sendgrid.Email();
-//
-//email.addTo("zhang.ze@husky.neu.edu");
-//email.setFrom("TripSearching");
-//email.setSubject("Sending with SendGrid is Fun");
-//email.setHtml("This is a test02");
-//
-//sendgrid.send(email);
+
 
 require("./public/server/app.js")(app);
 

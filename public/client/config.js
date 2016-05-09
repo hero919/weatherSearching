@@ -14,7 +14,8 @@
         $routeProvider.
             when('/mainpage', {
                 templateUrl: 'views/mainpage/mainpage.view.html',
-                controller:"mainpageController"
+                controller:"mainpageController",
+                controllerAs:"model"
             }).
             when('/weatherSearch/:lat,:lng', {
                 templateUrl: 'views/searchResults/searchResults.view.html',

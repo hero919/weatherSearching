@@ -41,8 +41,6 @@
             }else{
                 $scope.message = "The Enter Location can't be found or have multiple choices. Please Specify the location";
             }
-
-
         });
 
         weatherService.getWeatherByLatLng(loc).then(function(response){
@@ -63,10 +61,11 @@
                 var humidity = "Humidity: "+ Math.floor(response.currently.humidity*100) + "%";
                 $scope.humidity = humidity;
 
-                var wind = "Wind: " + Math.floor(response.currently.windSpeed) + "miles/hour";
+                var wind = "Wind: " + Math.floor(response.currently.windSpeed) + " miles/hour";
 
                 $scope.wind = wind;
                 $scope.futureDays = response.daily.data;
+                //console.log(document.getElementById('searchLocationTemperatureChart'));
                 google.charts.setOnLoadCallback(drawLineColors);
             }else{
                 $scope.message = "The Enter Location can't be found or have multiple choices. Please Specify the location";
